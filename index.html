@@ -10,22 +10,6 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="header__item">
-            <span class="header__item_title">IC "Repair Design Project"</span>
-            <div class="header__item_navigation">
-                <a class="header__item_gold" href="#">HOME</a>
-                <a class="header__item_whit" href="#">PROJECTS</a>
-                <a class="header__item_whit" href="#">MEASUREMENT</a>
-                <a class="header__item_whit" href="#">TEAM</a>
-                <a class="header__item_whit" href="#">REVIEWS</a>
-                <a class="header__item_whit" href="#">CONTACTS</a>
-            </div>
-            <span class="header__item_contacts">+7 (928) 768-32-39</span>
-            <button class="header__item_button">Request a call</button>
-        </div>
-    </header>
-
     <main class="main">
         <div class="slider">
             <div class="main__slaider">
@@ -61,9 +45,9 @@
                         </div>
                         <div class="main_re">
                             <div class="main_city">
-                                <span class="main_city_active">Rostov-on-Don, Admiral</span>
-                                <span class="main_city_pacciv">Sochi Thieves</span>
-                                <span class="main_city_pacciv">Rostov-on-Don Patriotic</span>
+                                <span class="main_city_active" data-index="0">Rostov-on-Don, Admiral</span>
+                                <span class="main_city_pacciv" data-index="1">Sochi Thieves</span>
+                                <span class="main_city_pacciv" data-index="2">Rostov-on-Don Patriotic</span>
                             </div>
                             <img src="photo/rostov_admiral.png" alt="Ростов адмирал" width="679" height="482" class=".slider-images">
                         </div>
@@ -100,9 +84,9 @@
                         </div>
                         <div class="main_re">
                             <div class="main_city">
-                                <span class="main_city_pacciv">Rostov-on-Don, Admiral</span>
-                                <span class="main_city_active">Sochi Thieves</span>
-                                <span class="main_city_pacciv">Rostov-on-Don Patriotic</span>
+                                <span class="main_city_pacciv" data-index="0">Rostov-on-Don, Admiral</span>
+                                <span class="main_city_active" data-index="1">Sochi Thieves</span>
+                                <span class="main_city_pacciv" data-index="2">Rostov-on-Don Patriotic</span>
                             </div>
                             <img src="photo/sochi.png" alt="Сочи" width="679" height="482">
                         </div>
@@ -139,9 +123,9 @@
                         </div>
                         <div class="main_re">
                             <div class="main_city">
-                                <span class="main_city_pacciv">Rostov-on-Don, Admiral</span>
-                                <span class="main_city_pacciv">Sochi Thieves</span>
-                                <span class="main_city_active">Rostov-on-Don Patriotic</span>
+                                <span class="main_city_pacciv" data-index="0">Rostov-on-Don, Admiral</span>
+                                <span class="main_city_pacciv"data-index="1">Sochi Thieves</span>
+                                <span class="main_city_active"data-index="2">Rostov-on-Don Patriotic</span>
                             </div>
                             <img src="photo/rostov_patriotic.png" alt="Ростов-на-Дону, Патриотик" width="679" height="482">
                         </div>
@@ -156,7 +140,7 @@
                         </svg>
                     </span>
                     <div class="dots">
-                        <div class="dot" data-index="0"></div>
+                        <div class="dot active" data-index="0"></div>
                         <div class="dot" data-index="1"></div>
                         <div class="dot" data-index="2"></div>
                     </div>

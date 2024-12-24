@@ -17,54 +17,6 @@ a {
     color: inherit;
 }
 
-.header {
-    background: rgba(19, 19, 19, 1);
-}
-
-.header__item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 83px;
-    background: rgba(19, 19, 19, 1);
-    margin-left: 6.4%;
-    margin-right: 6.26%;
-    font-size: 11px;
-    font-weight: 400;
-    line-height: 15px;
-}
-
-.header__item_title {
-    color: rgba(227, 184, 115, 1);
-}
-
-.header__item_gold {
-    color: rgba(227, 184, 115, 1);
-}
-
-.header__item_whit {
-    color: rgba(255, 255, 255, 1);
-}
-
-.header__item_contacts {
-    color: rgba(227, 184, 115, 1);
-}
-
-.header__item_button {
-    width: 161px;
-    height: 37px;
-    border-radius: 2px;
-    box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.2);
-    background: rgba(227, 184, 115, 1);
-    border: 0;
-    font-size: 11px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 15px;
-    text-align: center;
-    color: rgba(255, 255, 255, 1);
-}
-
 .slider {
     background: rgba(19, 19, 19, 1);
     display: flex;
@@ -153,7 +105,7 @@ a {
     cursor: pointer;
 }
 
-.dot.active {
+.active {
     background: rgba(255, 255, 255, 1);
     width: 9.57px;
     height: 9.57px;
